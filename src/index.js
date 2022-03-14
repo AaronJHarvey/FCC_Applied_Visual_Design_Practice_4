@@ -1,5 +1,6 @@
 import "./styles.css";
 
 document.getElementById("app").innerHTML = `
-<div></div>
+<div class="blue"></div>
+<div class="yellow"></div>
 `;

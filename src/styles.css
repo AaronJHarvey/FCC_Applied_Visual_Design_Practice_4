@@ -1,6 +1,14 @@
+body {
+  background-color: #ffffff;
+}
+.blue {
+  background-color: #000000;
+}
+.yellow {
+  background-color: #000000;
+}
 div {
-  background-color: blue;
+  display: inline-block;
   height: 100px;
   width: 100px;
-  margin: auto;
 }
