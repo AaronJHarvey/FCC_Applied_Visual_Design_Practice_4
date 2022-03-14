@@ -2,13 +2,15 @@ import "./styles.css";
 
 document.getElementById("app").innerHTML = `
 <body>
-  <h1>Welcome!</h1>
-  <section>
-    <form id="searchbar">
-      <label for="search">Search:</label>
-      <input type="search" id="search" name="search">
-      <input type="submit" name="submit" value="Go!">
-    </form>
-  </section>
+  <header>
+    <h1>Welcome!</h1>
+    <nav id="navbar">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <p>I shift up when the #navbar is fixed to the browser window.</p>
 </body>
 `;
