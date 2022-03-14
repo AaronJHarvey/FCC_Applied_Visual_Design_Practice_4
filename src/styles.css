@@ -1,19 +1,21 @@
 body {
-  background-color: #ff790e;
+  background-color: #ffffff;
 }
-header {
-  background-color: #09a7a1;
-  color: white;
-  padding: 0.25em;
+
+.green {
+  background-color: #000000;
 }
-h2 {
-  color: #09a7a1;
+
+.cyan {
+  background-color: #000000;
 }
-button {
-  background-color: #ff790e;
+
+.blue {
+  background-color: #000000;
 }
-footer {
-  background-color: #09a7a1;
-  color: white;
-  padding: 0.5em;
+
+div {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
 }
